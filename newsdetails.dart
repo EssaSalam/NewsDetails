@@ -58,12 +58,13 @@ class _NewsDetailsState extends State<NewsDetails> {
                     thickness: 1.0,
                   ),
 
-                  //second container if details of post
+                  //second container content details of post
                   Container(
                     child: Text(
                       arg.detail!,
                       style: Theme.of(context).textTheme.headline3,
                       textAlign: TextAlign.center,
+                      
                     ),
                   ),
 
