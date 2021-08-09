@@ -63,8 +63,8 @@ class _NewsDetailsState extends State<NewsDetails> {
                     child: Text(
                       arg.detail!,
                       style: Theme.of(context).textTheme.headline3,
-                      textAlign: TextAlign.center,
-                      
+                      textAlign: TextAlign.justify,
+
                     ),
                   ),
 
